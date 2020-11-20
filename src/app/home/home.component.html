@@ -1,0 +1,31 @@
+<!-- <p>home works!</p> -->
+<h2>User Details</h2>
+
+<!-- <div class="list">
+    <mat-list>
+        <mat-list-item class="heading">FirstName LastName Email Age</mat-list-item>
+    </mat-list>
+    <mat-nav-list *ngFor="let user of users">
+        <mat-list-item class="info">{{user.firstName}} {{user.lastName}} {{user.email}} {{user.age}}</mat-list-item>
+    </mat-nav-list>
+</div> -->
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user._id}}</td>
+        <td>{{user.firstName}}</td>
+        <td>{{user.lastName}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.age}}</td>
+        
+    </tr>
+</table>
+
+

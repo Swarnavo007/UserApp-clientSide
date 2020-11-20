@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.field{
+    width: 100%;
+}
+
+.form-group{
+    margin-left: 10px
+}
+
+button{
+    background: rgb(38, 38, 175);
+    color: white;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+.wrapper{
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 600px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    color: blue;
+}

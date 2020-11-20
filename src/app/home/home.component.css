@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+}
+
+.heading{
+    color: blue;
+    font-weight: bold;
+}
+
+.info{
+    word-spacing: 30px;
+    color: green;
+}
+
+.list {
+    margin-left: 380px;
+    border: 1px solid blue;
+    width: 600px;
+}
+
+.list .heading{
+    word-spacing: 50px;
+}
+
+table{
+    margin: auto;
+    border: 1px solid blue;
+}
+
+td, th{
+    padding: 10px;
+    border-bottom: 1px solid blue;
+}
+
+tr:last-child{
+    border-bottom: none;
+}

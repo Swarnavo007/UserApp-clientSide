@@ -1,0 +1,42 @@
+<!-- <p>add-user works!</p> -->
+
+<div class="wrapper">
+    <h2>Enroll User</h2>
+    <form #userInfo="ngForm" *ngIf='!submitted'(ngSubmit)='onSubmit()' novalidate>
+
+        <!-- {{userInfo.value | json}} -->
+        <!-- {{userModel | json}} -->
+        <div class="form-group">
+            <mat-form-field appearance="fill" class="field">
+                <mat-label>First Name</mat-label>
+                <input matInput required name="firstName" [(ngModel)]=userModel.firstName>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field appearance="fill" class="field">
+                <mat-label>Last Name</mat-label>
+                <input matInput name="lastName" [(ngModel)]=userModel.lastName>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field appearance="fill" class="field">
+                <mat-label>Email</mat-label>
+                <input matInput type="email" required name="email" [(ngModel)]=userModel.email>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field appearance="fill" class="field">
+                <mat-label>Age</mat-label>
+                <input matInput type="number" required name="age" [(ngModel)]=userModel.age>
+            </mat-form-field>
+        </div>
+        <button mat-button>Submit</button>
+    </form>
+
+</div>
+
+
+
+<p *ngIf='submitted'>The response has been submitted
+    <br>Click New User to record another response
+</p>
