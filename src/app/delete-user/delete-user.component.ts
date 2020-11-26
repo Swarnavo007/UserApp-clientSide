@@ -18,11 +18,11 @@ export class DeleteUserComponent implements OnInit {
   info=new UpdateUser('');
 
 
-  deleteUser(id:any){
-    this._user.deleteUser(id)
-          .subscribe()
-    console.log(id);
-  }
+  // deleteUser(id:any){
+  //   this._user.deleteUser(id)
+  //         .subscribe()
+  //   console.log(id);
+  // }
 
   updateUser(id:any,email:string){
     this.info=new UpdateUser(email);

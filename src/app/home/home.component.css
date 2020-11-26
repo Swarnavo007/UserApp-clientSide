@@ -25,6 +25,7 @@ h2{
 table{
     margin: auto;
     border: 1px solid blue;
+    background: white;
 }
 
 td, th{

@@ -18,4 +18,10 @@ export class HomeComponent implements OnInit {
     console.log(this.users.length);
   }
   
+  onDelete(id:any){
+    this._users.deleteUser(id)
+    .subscribe()
+
+    location.reload()
+  }
 }
