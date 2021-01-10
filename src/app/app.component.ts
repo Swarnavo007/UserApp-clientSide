@@ -7,5 +7,5 @@ import { UserService } from './user.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'UserApps';
+  title = 'UserApps Jenkins';
 }
